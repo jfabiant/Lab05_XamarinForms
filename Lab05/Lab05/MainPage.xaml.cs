@@ -27,16 +27,16 @@ namespace Lab05
                 await Navigation.PushAsync(new pageDesign.DatepickerDemo());
 
             };
-            //Item4.Clicked += async (sender, e) =>
-            //{
-            //    await Navigation.PushAsync(new EditorDemo());
+            Item4.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new EditorDemo());
 
-            //};
-            //Item5.Clicked += async (sender, e) =>
-            //{
-            //    await Navigation.PushAsync(new EditorCode());
+            };
+            Item5.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new EditorCode());
 
-            //};
+            };
             Item6.Clicked += async (sender, e) =>
             {
                 await Navigation.PushAsync(new EntryDemo());
@@ -57,16 +57,16 @@ namespace Lab05
                 await Navigation.PushAsync(new LabelCode());
 
             };
-            //Item10.Clicked += async (sender, e) =>
-            //{
-            //    await Navigation.PushAsync(new LocalImage());
+            Item10.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new LocalImage());
 
-            //};
-            //Item11.Clicked += async (sender, e) =>
-            //{
-            //    await Navigation.PushAsync(new EmbeddedImage());
+            };
+            Item11.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new EmbeddedImage());
 
-            //};
+            };
             //Item12.Clicked += async (sender, e) =>
             //{
             //    await Navigation.PushAsync(new ListViewDemo());
